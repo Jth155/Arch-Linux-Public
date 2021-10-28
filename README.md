@@ -1,6 +1,8 @@
 # Arch-Linux-Public
 For Sal and Codi to view at their pleasure.
 
+Please, for your sake and mine, view this as source and not their attempt to make it "better".
+
 First things first, we need to get the ISO file in order to have an arch linux to install. To do that, download BitTorrent Web, and snag the torrent file from the Arch Linux download page. Throw that on a flashdrive.
 Next, make a VM pointing to that ISO from the USB, and then go through the process of making the VM. Before you turn it on, make sure that you change its memory to 8 gigs.
 Now we turn on the VM. Our first goal is to partition the file system into 2 parts. Use fdisk -l to see our disks, and then cfdisk [name of disk] to format the disk and start partitioning it.
